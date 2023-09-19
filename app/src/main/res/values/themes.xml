@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <attr name="error_background_color" />
+    <attr name="title_error_color" />
+    <attr name="description_error_color" />
+    <attr name="retry_background_color" />
+    <attr name="retry_text_color" />
+
+    <style name="Base.Theme.Sprint9koh9" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="android:windowBackground">@drawable/ic_launcher_background</item>
+
+    </style>
+
+    <style name="Theme.Sprint9koh9" parent="Base.Theme.Sprint9koh9">
+        <item name="error_background_color">#ccc</item>
+        <item name="title_error_color">#900</item>
+        <item name="description_error_color">#0f0</item>
+        <item name="retry_background_color">#990</item>
+        <item name="retry_text_color">#099</item>
+    </style>
+
+    <style name="Theme.Sprint9koh9.2" parent="Base.Theme.Sprint9koh9">
+        <item name="error_background_color">#990</item>
+        <item name="title_error_color">#0f0</item>
+        <item name="description_error_color">#369</item>
+        <item name="retry_background_color">#008</item>
+        <item name="retry_text_color">#900</item>
+    </style>
+</resources>

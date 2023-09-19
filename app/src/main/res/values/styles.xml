@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Sprint9.Title" parent="">
+        <item name="android:textColor">?attr/title_error_color</item>
+    </style>
+    <style name="Widget.Sprint9.Title.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Widget.Sprint9.Description" parent="">
+        <item name="android:textColor">?attr/description_error_color</item>
+    </style>
+    <style name="Widget.Sprint9.Description.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Widget.Sprint9.ButtonRetry" parent="">
+        <item name="backgroundTint">?attr/retry_background_color</item>
+        <item name="android:textColor">?attr/retry_text_color</item>
+    </style>
+</resources>

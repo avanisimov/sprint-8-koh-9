@@ -6,6 +6,7 @@
     </style>
     <style name="Widget.Sprint9.Title.20">
         <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="Widget.Sprint9.Description" parent="">

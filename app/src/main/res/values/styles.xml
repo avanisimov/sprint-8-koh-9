@@ -20,4 +20,8 @@
         <item name="backgroundTint">?attr/retry_background_color</item>
         <item name="android:textColor">?attr/retry_text_color</item>
     </style>
+
+    <style name="Widget.Sprint9.Icon" parent="">
+        <item name="tint">?attr/retry_background_color</item>
+    </style>
 </resources>
